@@ -15,7 +15,7 @@ const AppProvider = ({ children }) => {
 
   const fetchApiData = async () => {
     try {
-      const result = await FetchDatabyQuery(state.query);
+      const result = await FetchDatabyQuery();
       dispatch({
         type: "Get_datas",
         payload: {
@@ -27,26 +27,13 @@ const AppProvider = ({ children }) => {
     }
   };
 
-  const searchpost = (searchquery) => {
-    dispatch({
-      type: "Searchpost",
-      payload: searchquery,
-    });
-  };
-
-  const userName = (UserName) => {
-    dispatch({
-      type: "UserName",
-      payload: UserName,
-    });
-  };
 
   useEffect(() => {
     fetchApiData();
-  }, [state.query]);
+  }, []);
 
   return (
-    <AppContext.Provider value={{ ...state, searchpost, userName }}>
+    <AppContext.Provider value={{ ...state}}>
       {children}
     </AppContext.Provider>
   );
