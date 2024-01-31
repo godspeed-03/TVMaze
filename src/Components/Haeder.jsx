@@ -6,7 +6,7 @@ function Header() {
   const navigate = useNavigate();
   return (
     <>
-      <header className="  py-3 ">
+      <header className=" h-[12vh] ">
         <nav>
           <ul className="flex justify-center items-center gap-5">
             <li>
@@ -14,7 +14,7 @@ function Header() {
                 src={logo}
                 alt="Meetly_logo"
                 onClick={() => navigate("/")}
-                className="w-20 rounded-full"
+                className="w-20 rounded-full p-1"
               />
             </li>
             <li>

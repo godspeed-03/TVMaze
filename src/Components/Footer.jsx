@@ -4,8 +4,8 @@ import gihub from "../assets/github-mark.png";
 function Footer() {
   return (
     <>
-      <footer className="">
-        <section className="content py-5 flex flex-col items-center justify-center gap-3">
+      <footer className=" h-[10vh]">
+        <section className="content  flex flex-col items-center justify-center gap-2 py-1">
           <div className="flex items-center justify-center font-bold gap-2">
             <a href="https://theviiew.netlify.app/" target="_blank">
               <span className="text-white">The VIIEW</span>

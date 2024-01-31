@@ -43,10 +43,10 @@ const SummaryPage = () => {
         <Loader />
       ) : (
         <div
-          className=" w-full md:h-[100vh] h-full  bg-cover shadow-2xl bg-no-repeat bg-center  flex flex-col justify-center items-center"
+          className=" w-full md:h-[78vh] h-full  bg-cover shadow-2xl bg-no-repeat bg-center  flex flex-col justify-center items-center"
           style={{ backgroundImage: `url('${bg ?? img}')` }}
         >
-          <div className="w-full md:h-[100vh] h-full max-md:py-5 bg-white/[0.8] flex items-center justify-center">
+          <div className="w-full md:h-[78vh] h-full max-md:py-5 bg-white/[0.8] flex items-center justify-center">
             <div className=" max-w-[80rem] flex max-md:flex-col gap-10 mx-auto">
               <div className="left flex-[0.5] flex items-center justify-center">
                 <img
