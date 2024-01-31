@@ -14,7 +14,7 @@ const Homepage = () => {
     <div className="herobanner">
 <Herobanner />
 </div>
-      <div className="md:mt-8 mt-5 z-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 object-contain md:mx-32 sm:mx-16 mx-8">
+      <div className=" relative md:mt-32  mt-28 z-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 object-contain md:mx-32 sm:mx-16 mx-8">
         {data.map((item) => {
           // const { score, show } = item;
           return (

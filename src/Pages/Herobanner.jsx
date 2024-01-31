@@ -11,7 +11,7 @@ const Herobanner = () => {
         setBg(background);
       }, [data]);
   return (
-    <div className="w-full bg-[#024049] flex items-center object-contain md:h-[700px] h-[450px]   ">
+    <div className="w-full bg-[#024049] flex items-center object-contain md:h-[600px] h-[450px]   ">
     {!loading && (
       <div className="image w-full h-full absolute top-0 left-0 opacity-50 overflow-hidden  ">
         <img className="w-full h-full object-cover" src={bg} alt="" />
