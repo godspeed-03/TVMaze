@@ -17,7 +17,11 @@ function Footer() {
           </div>
           <div className="github">
             <a href="https://github.com/godspeed-03/TVMaze.git" target="_blank">
-              <img src={gihub} alt="gihub_logo" className="w-10 bg-black rounded-full" />
+              <img
+                src={gihub}
+                alt="gihub_logo"
+                className="w-10 bg-black rounded-full"
+              />
             </a>
           </div>
           <div className="copyright text-white">

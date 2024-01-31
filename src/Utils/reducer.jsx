@@ -6,7 +6,6 @@ const reducer = (state, action) => {
         data: action.payload.data,
         loading: false,
       };
-
   }
   return state;
 };

@@ -12,7 +12,7 @@ function App() {
         <Haeder />
         <Routes>
           <Route exact path="/" element={<Homepage />} />
-          <Route  path="/show/:id" element={<SummaryPage />} />
+          <Route path="/show/:id" element={<SummaryPage />} />
         </Routes>
         <Footer />
       </Router>

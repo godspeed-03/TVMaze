@@ -5,7 +5,7 @@ import FetchDatabyQuery from "./API";
 let initialState = {
   query: "",
   data: [],
-  loading : true,
+  loading: true,
 };
 
 const AppContext = createContext();
@@ -27,15 +27,12 @@ const AppProvider = ({ children }) => {
     }
   };
 
-
   useEffect(() => {
     fetchApiData();
   }, []);
 
   return (
-    <AppContext.Provider value={{ ...state}}>
-      {children}
-    </AppContext.Provider>
+    <AppContext.Provider value={{ ...state }}>{children}</AppContext.Provider>
   );
 };
 
