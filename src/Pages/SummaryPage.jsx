@@ -22,7 +22,6 @@ const SummaryPage = () => {
     fetchData();
   }, [id]);
 
-  console.log(deatils);
 
   const bg = deatils?.image?.original;
   const name = deatils?.name;
@@ -35,7 +34,6 @@ const SummaryPage = () => {
   const timing = deatils?.schedule?.time;
   const unkown = "unknown";
 
-  console.log(status === "Running");
 
   return (
     <>

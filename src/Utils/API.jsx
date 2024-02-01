@@ -13,14 +13,12 @@ const FetchDatabyQuery = async (query) => {
       return data;
     } else {
       const response = await fetch(`${baseurl}search/shows?q=all`);
-      console.log(`${baseurl}search/shows?q=all`);
 
       if (!response.ok) {
         throw new Error("Data can't be fetched error...");
       }
 
       const data = await response.json();
-      console.log(data);
       return data;
     }
   } catch (error) {
