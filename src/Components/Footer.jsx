@@ -20,7 +20,7 @@ function Footer() {
               <img
                 src={gihub}
                 alt="gihub_logo"
-                className="w-10 bg-black rounded-full"
+                className="w-10"
               />
             </a>
           </div>
