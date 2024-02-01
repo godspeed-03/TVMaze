@@ -32,7 +32,7 @@ const Card = ({ name, id, date, url }) => {
           />
         </div>
       </Tilt>
-      <div className="textBlock text-black flex flex-col gap-1 rounded-lg mt-1 px-3 transition duration-300 ease-in-out transform hover:translate-x-2 hover:bg-gradient-to-r hover:from-gray-300 hover:to-gray-400">
+      <div className="textBlock text-black flex flex-col gap-1 rounded-lg mt-1 px-3 transition duration-300 ease-in-out transform hover:translate-x-2 hover:bg-gradient-to-r hover:from-gray-300/[0.5] hover:to-gray-400/[0.5]">
         <span className="title text-xl font-bold font-serif">{name}</span>
         <span className="date">{dayjs(date).format("MMM D, YYYY")}</span>
       </div>
