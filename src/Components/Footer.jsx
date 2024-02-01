@@ -5,14 +5,14 @@ function Footer() {
   return (
     <>
       <footer className=" h-[10vh]">
-        <section className="content  flex flex-col items-center justify-center gap-2 py-1">
-          <div className="flex items-center justify-center font-bold gap-2">
+        <section className="content  flex flex-col items-center justify-center gap-2 py-3">
+          <div className="text-white flex items-center justify-center font-bold gap-2">
             <a href="https://theviiew.netlify.app/" target="_blank">
-              <span className="text-white">The VIIEW</span>
+              <span className="">The VIIEW</span>
             </a>
-            <span className="text-black font-semibold"> by</span>
+            <span className=""> by</span>
             <a href="https://github.com/godspeed-03" target="_blank">
-              <span className="text-white">Satyam Anand. </span>
+              <span className="">Satyam Anand. </span>
             </a>
           </div>
           <div className="github">
